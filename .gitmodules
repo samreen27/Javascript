@@ -1,0 +1,3 @@
+[submodule "RockPaperScissors"]
+	path = RockPaperScissors
+	url = https://github.com/samreen27/Javascript.git
