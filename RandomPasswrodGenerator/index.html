@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <input id="input" type="text">
+            <div class="flex">
+                <label for="pwdlen">Password Length</label>
+                <input id="pwdlen" type="number" max="30" min="2" value="10">
+            </div>
+            <div class="flex">
+                <label for="upperCase">Contains UpperCase</label>
+                <input id="upperCase" type="checkbox">
+            </div>
+            <div class="flex">
+                <label for="lowerCase">Contains LowerCase</label>
+                <input id="lowerCase" type="checkbox">
+            </div>
+            <div class="flex">
+                <label for="numbers">Contains Numbers</label>
+                <input id="numbers" type="checkbox">
+            </div>
+            <div class="flex">
+                <label for="symbols">Contains Symbols</label>
+                <input id="symbols" type="checkbox">
+            </div>
+            <button class="btn">
+                Generate
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
